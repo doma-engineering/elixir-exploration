@@ -21,7 +21,7 @@
 sudo apt install libncurses5 libwxbase3.0-dev libwxgtk3.0-gtk3-dev libsctp1
 ```
 
-### ESL Erlang
+### ESL Erlang (or asdf Erlang)
 
 ```
 wget https://packages.erlang-solutions.com/erlang/debian/pool/esl-erlang_24.0.5-1~ubuntu~focal_amd64.deb -O /tmp/erl.deb
@@ -29,10 +29,14 @@ sudo dpkg -i /tmp/erl.deb
 rm /tmp/erl.deb
 ```
 
-### ESL Elixir
+If you want an easier time maintaining several versions of Erlang for some reason, please use `asdf` to install it.
+
+### ESL Elixir (or asdf Elixir)
 
 ```
 wget https://packages.erlang-solutions.com/erlang/debian/pool/elixir_1.12.2-1~ubuntu~focal_all.deb -O /tmp/ex.deb
 sudo dpkg -i /tmp/ex.deb
 rm /tmp/ex.deb
 ```
+
+If you want an easier time maintaining several versions of Elixir for some reason, please use `asdf` to install it.
