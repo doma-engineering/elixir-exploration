@@ -39,4 +39,10 @@ sudo dpkg -i /tmp/ex.deb
 rm /tmp/ex.deb
 ```
 
+Don't forget to update your `hex` utility like so:
+
+```
+mix local.hex
+```
+
 If you want an easier time maintaining several versions of Elixir for some reason, please use `asdf` to install it.
